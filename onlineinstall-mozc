@@ -1,0 +1,4 @@
+#!/bin/sh
+yum -y localinstall http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+yum -y install protobuf qt Qt-x11
+yum -y localinstall http://ftp.kddilabs.jp/pub/Linux/packages/Vine/Vine-6.3/x86_64/Vine/RPMS/zinnia-0.06-3vl6.x86_64.rpm http://ftp.kddilabs.jp/pub/Linux/packages/Vine/Vine-6.3/x86_64/Vine/RPMS/tegaki-zinnia-japanese-0.3-1vl6.noarch.rpm http://ftp.kddilabs.jp/pub/Linux/packages/Vine/Vine-6.3/x86_64/Vine/RPMS/mozc-server-1.5.1090.102-1vl6.x86_64.rpm http://ftp.kddilabs.jp/pub/Linux/packages/Vine/Vine-6.3/x86_64/Vine/RPMS/mozc-utils-gui-1.5.1090.102-1vl6.x86_64.rpm http://ftp.kddilabs.jp/pub/Linux/packages/Vine/Vine-6.3/x86_64/Vine/RPMS/ibus-mozc-1.5.1090.102-1vl6.x86_64.rpm http://ftp.kddilabs.jp/pub/Linux/packages/Vine/Vine-6.3/x86_64/Vine/RPMS/mozc-1.5.1090.102-1vl6.x86_64.rpm

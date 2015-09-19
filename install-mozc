@@ -1,9 +1,5 @@
+#!/bin/sh
 yum -y install wget
 yum -y localinstall epel-release-6-8.noarch.rpm
 yum -y install protobuf qt Qt-x11
-yum -y localinstall zinnia-0.06-3vl6.x86_64.rpm
-yum -y localinstall tegaki-zinnia-japanese-0.3-1vl6.noarch.rpm
-yum -y localinstall mozc-server-1.5.1090.102-1vl6.x86_64.rpm
-yum -y localinstall mozc-utils-gui-1.5.1090.102-1vl6.x86_64.rpm
-yum -y localinstall ibus-mozc-1.5.1090.102-1vl6.x86_64.rpm
-yum -y localinstall mozc-1.5.1090.102-1vl6.x86_64.rpm
+yum -y localinstall zinnia-0.06-3vl6.x86_64.rpm tegaki-zinnia-japanese-0.3-1vl6.noarch.rpm mozc-server-1.5.1090.102-1vl6.x86_64.rpm mozc-utils-gui-1.5.1090.102-1vl6.x86_64.rpm ibus-mozc-1.5.1090.102-1vl6.x86_64.rpm mozc-1.5.1090.102-1vl6.x86_64.rpm
